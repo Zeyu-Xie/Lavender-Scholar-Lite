@@ -1,0 +1,27 @@
+# Basic Site Info
+
+title: Lavender Scholar Lite
+author: 
+    name: Acan
+    email: xie.zeyu20@gmail.com
+    github: https://github.com/zeyu-xie
+description: >
+    A Jekyll theme embodying simplicity and scholarship. Clean design, minimalistic aesthetics, and a scholarly touch for a distraction-free reading and learning experience.
+lang: en
+copyright: >
+    ©️ 2023 Acan. All rights reserved.
+
+# Build Settings
+
+plugins:
+    - jekyll-feed
+    - jekyll-seo-tag
+
+# Theme-Specific Settings
+
+header_pages:
+    - author.md
+
+date_format: "%b %-d, %Y"
+
+show_excerpts: true

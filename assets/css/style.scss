@@ -9,358 +9,361 @@ $xl: 1200px;
 $xxl: 1400px;
 
 * {
-  font-size: 16px;
-  font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-family: "Times New Roman", Times, serif;
 }
 
 a {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 address {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 article {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 aside {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }
 
 audio {
-  display: block;
-  
-  margin-block: 1em;
+    display: block;
+
+    margin-block: 1em;
 }
 
 bdi,
 bdo {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 blockquote {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  margin-inline: 2.5em;
+    margin-block: 1em;
+    margin-inline: 2.5em;
 
-  font-size: inherit;
-  font-style: italic;
+    font-size: inherit;
+    font-style: italic;
 }
 
 body {
+    display: block;
 
-  display: block;
+    width: auto;
+    min-width: min-content;
+    max-width: $md;
 
-  width: auto;
-  min-width: min-content;
-  max-width: $md;
+    padding-inline: 16px;
 
-  padding-inline: 16px;
+    margin-inline: auto;
+    margin-block: 0;
 
-  margin-inline: auto;
-  margin-block: 0;
-
-  font-size: 16px;
+    font-size: 16px;
 }
 
 button {
-  font-size: 0.8333em;
+    font-size: 0.8333em;
 }
 
 canvas {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }
 
 caption {
-  font-size: 1.17em;
-  font-weight: bold;
-  
-  margin-bottom: 1em;
+    font-size: 1.17em;
+    font-weight: bold;
+
+    margin-bottom: 1em;
 }
 
 cite {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 code {
-  font-size: inherit;
-  font-family: "Courier New", Courier, monospace;
+    font-size: inherit;
+    font-family: "Courier New", Courier, monospace;
 }
 
 dd {
-  display: block;
+    display: block;
 
-  margin-inline-start: 2.5em;
-  font-size: inherit;
+    margin-inline-start: 2.5em;
+    font-size: inherit;
 }
 
 details {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  font-size: inherit;
+    margin-block: 1em;
+    font-size: inherit;
 }
 
 dl {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  font-size: inherit;
+    margin-block: 1em;
+    font-size: inherit;
 }
 
 dt {
-  display: block;
+    display: block;
 
-  margin-inline: 0;
-  font-size: inherit;
+    margin-inline: 0;
+    font-size: inherit;
 }
 
 div {
-  display: block;
+    display: block;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-  margin-block: 1em;
-  font-size: inherit;
+    margin-block: 1em;
+    font-size: inherit;
 }
 
 fieldset {
-  display: block;
+    display: block;
 
-  margin-inline: 2px;
-  margin-block: 1em;
-  font-size: inherit;
+    margin-inline: 2px;
+    margin-block: 1em;
+    font-size: inherit;
 }
 
 figure {
-  display: block;
+    display: block;
 
-  width: fit-content;
+    width: fit-content;
 
-  margin-block: 1em;
-  margin-inline: 0px;
-  font-size: inherit;
+    margin-block: 1em;
+    margin-inline: 0px;
+    font-size: inherit;
 }
 
 footer {
-  display: block;
+    display: block;
 
-  margin-block-start: 2em;
-  margin-block-end: 1em;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
 
-  font-size: 0.8333em;
-  text-align: center;
+    font-size: 0.8333em;
+    text-align: center;
 
-  p {
-    margin-block: 0;
-  }
+    p {
+        margin-block: 0;
+    }
 
-  nav {
-    margin-block: 0;
-  }
+    nav {
+        margin-block: 0;
+    }
 }
 
 form {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  font-size: inherit;
+    margin-block: 1em;
+    font-size: inherit;
 }
 
 h1 {
-  margin-block: 0.6667em;
-  margin-inline: 0;
+    margin-block: 0.6667em;
+    margin-inline: 0;
 
-  font-size: 2em;
+    font-size: 2em;
 }
 
 h2 {
-  margin-block: 0.8333em;
+    margin-block: 0.8333em;
 
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 h3 {
-  margin-block: 1em;
+    margin-block: 1em;
 
-  font-size: 1.17em;
+    font-size: 1.17em;
 }
 
 h4 {
-  margin-block: 1em;
+    margin-block: 1em;
 
-  font-size: 1em;
+    font-size: 1em;
 }
 
 h5 {
-  margin-block: 1em;
+    margin-block: 1em;
 
-  font-size: 0.8333em;
+    font-size: 0.8333em;
 }
 
 h6 {
-  margin-block: 1em;
+    margin-block: 1em;
 
-  font-size: 0.6667em;
+    font-size: 0.6667em;
 }
 
 header {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }
 
 hgroup {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }
 
 hr {
-  display: block;
-  
-  margin-block: 1em;
+    display: block;
+
+    margin-block: 1em;
 }
 
 img {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }
 
 iframe {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  margin-inline: 0;
+    margin-block: 1em;
+    margin-inline: 0;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 input {
-  font-size: 0.8333em;
+    font-size: 0.8333em;
 }
 
 nav {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  margin-inline: 0;
+    margin-block: 1em;
+    margin-inline: 0;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 p {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
-  margin-inline: 0;
+    margin-block: 1em;
+    margin-inline: 0;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
-pre { 
-  overflow: scroll;
+pre {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
 }
 
 rt {
-  font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 samp {
-  font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
 }
 
 small {
-  font-size: 0.8333em;
+    font-size: 0.8333em;
 }
 
 select {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }
 
 sub,
 sup {
-  font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 table {
-  display: table;
+    display: table;
 
-  border: 2px solid;
+    border: 2px solid;
 
-  margin-block: 1em;
+    margin-block: 1em;
 
-  border-collapse: collapse;
+    border-collapse: collapse;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-  text-indent: initial;
+    text-indent: initial;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 td {
-  display: table-cell;
+    display: table-cell;
 
-  padding: 1px;
-  border: 1px solid;
+    padding: 1px;
+    border: 1px solid;
 
-  vertical-align: middle;
-  text-align: inherit;
+    vertical-align: middle;
+    text-align: inherit;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 th {
-  display: table-cell;
+    display: table-cell;
 
-  padding: 1px;
-  border: 1px solid;
+    padding: 1px;
+    border: 1px solid;
 
-  vertical-align: middle;
-  font-weight: bold;
-  text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 thead {
-  border: 2px solid;
+    border: 2px solid;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 time {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 tr {
-  display: table-row;
-  vertical-align: inherit;
+    display: table-row;
+    vertical-align: inherit;
 
-  font-size: inherit;
+    font-size: inherit;
 }
 
 video {
-  display: block;
+    display: block;
 
-  margin-block: 1em;
+    margin-block: 1em;
 }

@@ -8,49 +8,59 @@ title: Lavender Scholar Lite
 <head>
 
   <!-- charset info -->
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-	<!-- basic info -->
-	<meta name="author" content="{{ page.author }}">
-	<meta name="keywords" content="{{ page.keywords }}">
-	<meta name="description" content="{{ page.description }}">
+  <!-- basic info -->
+  <meta name="author" content="{{ page.author }}">
+  <meta name="keywords" content="{{ page.keywords }}">
+  <meta name="description" content="{{ page.description }}">
 
-	<!-- open graph -->
-	<meta property="og:title" content="{{ page.title }}">
-	<meta property="og:image" content="/favicon.ico">
-	<meta property="og:description" content="{{ page.description }}">
+  <!-- open graph -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:image" content="/favicon.ico">
+  <meta property="og:description" content="{{ page.description }}">
 
-	<!-- browser info -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="theme-color" content="#ffffff">
+  <!-- browser info -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
 
-	<!-- system info -->
-	<meta name="apple-mobile-web-app-title" content="{{ page.title }}">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="msapplication-TileColor" content="#ffffff">
+  <!-- system info -->
+  <meta name="apple-mobile-web-app-title" content="{{ page.title }}">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="msapplication-TileColor" content="#ffffff">
 
-	<!-- search engine info -->
-	<meta name="robots" content="index, follow">
+  <!-- search engine info -->
+  <meta name="robots" content="index, follow">
 
-	<!-- other meta info -->
-	<meta content="always" name="referrer">
+  <!-- other meta info -->
+  <meta content="always" name="referrer">
 
-	<!-- icons -->
-	<link rel="apple-touch-icon" href="/favicon.ico">
-	<link rel="icon" href="/favicon.ico">
+  <!-- icons -->
+  <link rel="apple-touch-icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.ico">
 
   <!-- web title -->
   <title>{{ page.title }}</title>
 
-	<!-- seo -->
-	{%- seo -%}
+  <!-- seo -->
+  {%- seo -%}
 
-	<!-- stylesheet -->
-	<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-	<!-- feed meta -->
-	{%- feed_meta -%}
+  <!-- script: Latex -->
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+  </script>
+
+  <!-- feed meta -->
+  {%- feed_meta -%}
 
 </head>
 

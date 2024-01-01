@@ -16,9 +16,6 @@ copyright: >
 plugins:
     - jekyll-feed
     - jekyll-seo-tag
-theme:
-    css: https://zeyu-xie.github.io/Myosotis-Config/web/index.css
-    js: https://zeyu-xie.github.io/Myosotis-Config/web/index.js
 
 # Theme-Specific Settings
 

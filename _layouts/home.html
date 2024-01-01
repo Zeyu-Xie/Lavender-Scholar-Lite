@@ -47,12 +47,12 @@ title: Lavender Scholar Lite
 	{%- seo -%}
 
 	<!-- stylesheet -->
-	<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ site.theme.css }}">
 
 	<!-- script: Latex -->
 	<script type="text/javascript" async
 		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-	</script>
+		</script>
 	<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
 			tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
@@ -99,6 +99,8 @@ title: Lavender Scholar Lite
 
 	<!-- footer -->
 	{%- include footer.html -%}
+
+	<script src="{{ site.theme.js }}"></script>
 
 </body>
 

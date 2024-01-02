@@ -8,8 +8,10 @@ author:
 description: >
     A Jekyll theme embodying simplicity and scholarship. Clean design, minimalistic aesthetics, and a scholarly touch for a distraction-free reading and learning experience.
 lang: en
-copyright: >
-    ©️ 2023 Acan. All rights reserved.
+copyright: 
+    label: ©️
+    identity: Acan
+    content: All rights reserved.
 
 # Build Settings
 

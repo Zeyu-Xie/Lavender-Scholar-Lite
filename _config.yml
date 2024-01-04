@@ -26,3 +26,5 @@ header_pages:
 date_format: "%b %-d, %Y"
 
 show_excerpts: true
+
+hide_date: false

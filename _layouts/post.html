@@ -82,23 +82,28 @@ title: Lavender Scholar Lite
     <address style="text-align: right;">
 
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      
+      {%- unless page.hide_date -%}
       <p>
         <time datetime="{{ page.date | date_to_xmlschema }}">
           {{ page.date | date: date_format }}
         </time>
       </p>
+      {%- endunless -%}
 
       {%- if page.modified_date -%}
       ~
       {%- assign mdate = page.modified_date | date_to_xmlschema -%}
-
+      {%- unless page.hide_date -%}
       <p>
         <time datetime="{{ mdate }}">
           {{ mdate | date: date_format }}
         </time>
       </p>
+      {%- endunless -%}
       {%- endif -%}
 
+      {%- unless page.hide_author -%}
       {%- if page.author -%}
       {% for author in page.author %}
 
@@ -107,6 +112,7 @@ title: Lavender Scholar Lite
       {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
       {%- endif -%}
+      {%- endunless -%}
     </address>
 
     <!-- main content -->

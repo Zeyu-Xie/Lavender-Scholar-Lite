@@ -80,7 +80,9 @@ title: Lavender Scholar Lite
 	{%- for post in site.posts -%}
 	<article>
 		<!-- article date -->
+		{%- unless site.hide_date -%}
 		<time>{{ post.date | date: date_format }}</time>
+		{%- endunless -%}
 
 		<!-- article title -->
 		<h3>

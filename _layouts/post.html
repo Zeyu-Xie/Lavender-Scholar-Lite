@@ -49,27 +49,27 @@ title: Lavender Scholar Lite
   <!-- stylesheet -->
   <link rel="stylesheet" href="https://zeyu-xie.github.io/Myosotis-Config/web/Scholar-Lite/index.css">
 
-  {%- if site.customized_background -%}
-	<style>
-		body {
-			background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ site.customized_background_url }}");
-			background-size: cover;
-			background-attachment: fixed;
-      background-position: center center;
-		}
-	</style>
-	{%- endif -%}
-
-  {%- if page.customized_background -%}
-	<style>
-		body {
-			background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ page.customized_background_url }}");
-			background-size: cover;
-			background-attachment: fixed;
-      background-position: center center;
-		}
-	</style>
-	{%- endif -%}
+    {%- if site.customized_background -%}
+    <style>
+        html {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ site.customized_background_url }}");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+    </style>
+    {%- endif -%}
+    
+    {%- if page.customized_background -%}
+    <style>
+        html {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ page.customized_background_url }}");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+    </style>
+    {%- endif -%}
 
   <!-- script: Latex -->
   <script type="text/javascript" async

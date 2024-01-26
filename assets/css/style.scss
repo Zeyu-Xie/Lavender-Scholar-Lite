@@ -1,3 +1,129 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+* {
+    font-family: "PingFang", "PingFang TC", "SF Pro";
+}
+
+// PingFang
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../font/PingFang\ ExtraLight.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../font/PingFang\ Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../font/PingFang\ Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../font/PingFang\ Medium.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../font/PingFang\ Bold.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "PingFang";
+    src: url("../font/PingFang\ Heavy.ttf");
+    font-weight: 600;
+}
+
+// PingFang TC
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("../font/PingFangTC-Ultralight.ttf");
+}
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("../font/PingFangTC-Thin.ttf");
+}
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("../font/PingFangTC-Light.ttf");
+}
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("../font/PingFangTC.ttf");
+}
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("../font/PingFangTC-Medium.ttf");
+}
+
+@font-face {
+    font-family: "PingFang TC";
+    src: url("../font/PingFangTC-Semibold.ttf");
+}
+
+// SF Pro
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Ultralight.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Thin.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Light.otf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Medium.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Bold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Semibold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Heavy.otf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("../font/SF-Pro-Display-Black.otf");
+    font-weight: 900;
+}

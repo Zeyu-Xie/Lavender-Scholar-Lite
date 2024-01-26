@@ -48,11 +48,12 @@ title: Lavender Scholar Lite
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="https://zeyu-xie.github.io/Myosotis-Config/web/Scholar-Lite/index.css">
+	<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 
 	{%- if site.customized_background -%}
 	<style>
 		body {
-			background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ site.customized_background_url | relative_url }}");
+			background-image: url("{{ site.customized_background_url | relative_url }}");
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center center;

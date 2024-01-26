@@ -52,7 +52,7 @@ title: Lavender Scholar Lite
 	{%- if site.customized_background -%}
 	<style>
 		body {
-			background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ site.customized_background_url }}");
+			background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("{{ site.customized_background_url | relative_url }}");
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center center;

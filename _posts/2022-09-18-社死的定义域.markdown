@@ -4,6 +4,8 @@ title:  "社死的定义域"
 date:   2022-09-18 19:33:00 +0200
 author: Acan
 categories: DIARY
+customized_background: true
+customized_background_url: /assets/image/bg-1.jpg
 ---
 
 曾经思考了许多社死的底层原理，最后还是认为，理不清人与场景的关系，是社死的根源。

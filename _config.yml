@@ -28,3 +28,7 @@ date_format: "%b %-d, %Y"
 show_excerpts: true
 
 hide_date: false
+
+customized_background: false
+
+customized_background_url: /assets/image/bg-2.jpg

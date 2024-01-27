@@ -47,33 +47,49 @@ title: Lavender Scholar Lite
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="https://zeyu-xie.github.io/Myosotis-Config/web/Scholar-Lite/index.css">
-	<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/style.css" | relative_url }}">
 
-    {%- if site.customized_background -%}
-    <style>
-        body {
-            background-image: url("{{ site.customized_background_url | relative_url }}");
-            background-size: contain;
-            background-attachment: fixed;
-            background-position: center center;
-            -webkit-transform: translateZ(0);
-			      transform: translateZ(0);
-        }
-    </style>
-    {%- endif -%}
-    
-    {%- if page.customized_background -%}
-    <style>
-        body {
-            background-image: url("{{ page.customized_background_url | relative_url }}");
-            background-size: contain;
-            background-attachment: fixed;
-            background-position: center center;
-            -webkit-transform: translateZ(0);
-			      transform: translateZ(0);
-        }
-    </style>
-    {%- endif -%}
+  {%- if site.customized_background -%}
+  <style>
+    body::before {
+      content: "";
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: contain;
+      background-image: url("{{ site.customized_background_url | relative_url }}");
+      background-size: contain;
+      background-attachment: fixed;
+      background-position: center center;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+  </style>
+  {%- endif -%}
+
+  {%- if page.customized_background -%}
+  <style>
+    body::before {
+      content: "";
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: contain;
+      background-image: url("{{ page.customized_background_url | relative_url }}");
+      background-size: contain;
+      background-attachment: fixed;
+      background-position: center center;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+  </style>
+  {%- endif -%}
 
   <!-- script: Latex -->
   <script type="text/javascript" async

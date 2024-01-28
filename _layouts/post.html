@@ -176,6 +176,17 @@ title: Lavender Scholar Lite
 
   <script src="https://zeyu-xie.github.io/Myosotis-Config/web/Scholar-Lite/index.js"></script>
 
+  <script>
+
+    let hotIndex = parseInt(getCookie("Acan-Hot-Index-{{ site.title }}"));
+    if (!hotIndex) {
+      hotIndex = 0;
+    }
+    hotIndex++;
+    setCookie("Acan-Hot-Index-{{ site.title }}", hotIndex.toString(), 1);
+
+  </script>
+
 </body>
 
 </html>

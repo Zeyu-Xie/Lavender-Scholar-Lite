@@ -60,6 +60,8 @@ lang: en
 
 ### Theme-Specific Settings
 
+Example of theme-specific settings is displayed below.
+
 ```
 copyright:
     label: ©️

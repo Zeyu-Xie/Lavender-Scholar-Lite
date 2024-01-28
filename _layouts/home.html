@@ -10,6 +10,11 @@ title: Lavender Scholar Lite
 	<!-- charset info -->
 	<meta charset="UTF-8">
 
+	<!-- base info -->
+	{%- if site.url -%}
+	<base href="{{ site.url }}">
+	{%- endif -%}
+
 	<!-- basic info -->
 	<meta name="author" content="{{ site.author.name }}">
 	<meta name="keywords" content="{{ site.keywords }}">

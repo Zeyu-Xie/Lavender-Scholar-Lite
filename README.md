@@ -80,4 +80,4 @@ customized_background_url:
 - **date_format** Format for displaying date. e.g. ```"%b %-d, %Y"```
 - **show_excerpts** Whether show excerpts of articles on homepage or not. e.g. true
 - **customized_background** Whether add background image to the post or not. e.g. false
-- **customized_background_url** Background image URL. e.g. ```/assets/image/bg-xxx.jpeg```
+- **customized_background_url** Background image URL. e.g. ```/assets/image/bg-xxx.jpeg``` p.s. You can choose either full URL or relative URL. If you use relative URL, the base URL is 

@@ -1,14 +1,19 @@
 * {
   font-family: "PingFang", "PingFang TC", "SF Pro";
+}
+
+code {
   max-width: 100%;
 }
 
 img {
   margin-inline: auto;
+  max-width: 100%;
 }
 
 table {
   margin-inline: auto;
+  max-width: 100%;
 }
 
 @font-face {

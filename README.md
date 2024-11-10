@@ -1,5 +1,7 @@
 # Lavender Scholar Lite
 
+A Jekyll theme in academic styles.
+
 ## How to Use
 
 ### Step 1. Install necessary gem bundles
